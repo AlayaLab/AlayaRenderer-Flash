@@ -1,0 +1,16 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+      description: The command you ran, what you expected, and what you got (full error output).
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: GPU model, driver, CUDA, OS, and the output of `uv run python -c "import torch; print(torch.__version__)"`.
+    validations:
+      required: true

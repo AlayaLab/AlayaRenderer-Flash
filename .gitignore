@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+.pytest_cache/
+.ruff_cache/
+dist/
+samples/
+checkpoints/
+*.safetensors
+*.pth
+*.npy
+*.mp4
+deploy.env
+.DS_Store
+# Operator-provided landing media (rendered from SuperTuxKart scenes; not distributed)
+src/alayarenderer_flash/demo/assets/landing-demo-poster.png
+src/alayarenderer_flash/demo/assets/landing-demo*.mp4

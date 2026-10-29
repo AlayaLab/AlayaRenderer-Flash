@@ -1,0 +1,20 @@
+name: CI
+
+# Lightweight checks only: no torch/CUDA install. Run pytest locally (see CONTRIBUTING.md).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Ruff format
+        run: uvx ruff@0.17.2 format --check .
+      - name: Ruff lint
+        run: uvx ruff@0.17.2 check .
+      - name: Lockfile is up to date
+        run: uv lock --check

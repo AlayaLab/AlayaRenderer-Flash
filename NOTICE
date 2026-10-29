@@ -1,0 +1,27 @@
+AlayaRenderer-Flash
+Copyright 2026 Alaya Lab
+
+This product includes software derived from Helios
+(https://github.com/PKU-YuanGroup/Helios), Copyright (c) PKU-YuanGroup,
+licensed under the Apache License, Version 2.0. The transformer
+(src/alayarenderer_flash/models/transformer.py), the streaming pipeline
+(src/alayarenderer_flash/pipeline/helios.py) and the fused kernels
+(src/alayarenderer_flash/models/kernels/) are modified from Helios to add
+G-buffer conditioning, text-sink prompt anchoring and streaming inference.
+
+This product uses the Wan 2.1 text-to-video model
+(https://github.com/Wan-Video/Wan2.1), licensed under the Apache License,
+Version 2.0, as its base model.
+
+src/alayarenderer_flash/decoders/taehv.py is TAEHV (https://github.com/madebyollin/taehv),
+Copyright (c) 2025 Ollin Boer Bohan, licensed under the MIT License; the full
+license text is in LICENSES/TAEHV-MIT.txt. The fine-tuned decoder weights
+(tiny_decoder/taew2_1_ft.safetensors) derive from the TAEHV TAEW2.1 weights,
+under the same license.
+
+The live demo runs alongside SuperTuxKart (https://github.com/supertuxkart/stk-code),
+licensed under the GNU General Public License v3.0 or later. SuperTuxKart, its
+modifications and its game assets are not distributed with this repository.
+
+Third-party dependencies, runtime-downloaded components and bundled media
+are listed in THIRD_PARTY_LICENSES.md.

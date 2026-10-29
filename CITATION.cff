@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use AlayaRenderer-Flash, please cite the technical report."
+title: "AlayaRenderer-Flash"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/AlayaLab/AlayaRenderer-Flash"
+authors:
+  - family-names: Lin
+    given-names: Guixu
+  - family-names: Huang
+    given-names: Zheng-Hui
+  - family-names: Yang
+    given-names: Siqi
+  - family-names: Yang
+    given-names: Ming-Hsuan
+  - family-names: Zhang
+    given-names: Kaipeng
+  - family-names: Wang
+    given-names: Zhixiang
+preferred-citation:
+  type: article
+  title: "Generative World Renderer at the Speed of Play"
+  journal: "arXiv preprint arXiv:2607.18703"
+  url: "https://arxiv.org/abs/2607.18703"
+  year: 2026
+  month: 7
+  authors:
+    - family-names: Lin
+      given-names: Guixu
+    - family-names: Huang
+      given-names: Zheng-Hui
+    - family-names: Yang
+      given-names: Siqi
+    - family-names: Yang
+      given-names: Ming-Hsuan
+    - family-names: Zhang
+      given-names: Kaipeng
+    - family-names: Wang
+      given-names: Zhixiang
